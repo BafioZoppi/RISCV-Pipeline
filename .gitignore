@@ -1,0 +1,16 @@
+# Ignora contenuti delle cartelle specifiche
+testbenches/alu/*
+testbenches/components/*
+testbenches/memory/*
+testbenches/processor/*
+testbenches/stages/*
+
+# Ignora file .cf
+*.cf
+
+# Mantieni i file .gitignore
+!testbenches/alu/.gitignore
+!testbenches/components/.gitignore
+!testbenches/memory/.gitignore
+!testbenches/processor/.gitignore
+!testbenches/stages/.gitignore
